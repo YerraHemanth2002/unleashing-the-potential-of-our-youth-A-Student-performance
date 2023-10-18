@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>A Student Performance  Analysis</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bikin
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#Dashboard">Dashboard</a></li>
+          <li><a class="nav-link scrollto " href="#Story">Story</a></li>
+          <li><a class="nav-link scrollto" href="#Report">Report</a></li>
+         
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+      <h1>A Student Performance analysis</h1>
+      <h2> Unleashing The Potential Of Our youth </h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <img src="data:image/jpeg;base64,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" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= DashboardSection ======= -->
+    <section id="Dashboard" class="Dashboard" data-aos="fade-up">
+      <div class="Dashboard">
+
+        <div class="section-title">
+         <h3>Dashboard</h3>
+        </div>
+        
+        <iframe src="https://us3.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2Fteam%2Bdashboard%2B2&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model0000018b1f2835e7_00000003" width="1350" height="800"frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section><!-- End Dashboard Section -->
+
+    <!-- ======= Story Section ======= -->
+    <section id="Story" class="Story">
+      <div class="Story" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Story</h2>
+         
+        </div>
+
+        <iframe src="https://us3.ca.analytics.ibm.com/bi/?perspective=story&amp;pathRef=.my_folders%2Fteam%2Bstory2&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;sceneId=model0000018b1f3e3b16_00000000&amp;sceneTime=5000" width="1400" height="800" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+
+
+
+
+      </div>
+    </section><!-- End Story Section -->
+
+    <!-- ======= Report Section ======= -->
+    <section id="Report" class="Report">
+      <div class="Report" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Report</h2>
+          
+          <iframe src="https://us3.ca.analytics.ibm.com/bi/?pathRef=.my_folders%2FTeam%2Breport&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=run&amp;format=HTML&amp;prompt=false" width="1350" height="1000" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+
+
+
+
+
+
+
+
+      </div>
+    </section><!-- End Report Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Y.Hemanth</h4>
+                  <span>Team Leader</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>U.Sai</h4>
+                  <span>Team member</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Harsh</h4>
+                  <span>Team member</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sowmya</h4>
+                  <span>Team member</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>A.Ravi</h4>
+                  <span>Team member</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+   
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Bikin</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Bikin</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bikin-free-simple-landing-page-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
